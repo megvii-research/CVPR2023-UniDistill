@@ -4,6 +4,7 @@ This is the official implementation of ***UniDistill*** **(CVPR2023 highlight✨
 <center>
 <img src='figs/unidistil_framework.png'>
 </center>
+
 ## Getting Started
 ### Installation
 **Step 0.** Install [pytorch](https://pytorch.org/)(v1.9.0).
@@ -52,7 +53,7 @@ The directory will be as follows.
 ```
 
 ### Testing
-**Step 0.** Download the [checkpoint models](https://drive.google.com/file/d/1qOydSalaB4Zdtsb8HPSZt7btl3cKfdU2/view?usp=sharing) 
+**Step 0.** Download the [checkpoint models](https://drive.google.com/file/d/1qOydSalaB4Zdtsb8HPSZt7btl3cKfdU2/view?usp=sharing)
 
 **Step 1.**  Generate the result
 If the modality of checkpoint is camera, run the following command:
@@ -88,6 +89,11 @@ Put the checkpoint of the teachers to `unidistill/exps/multisensor_fusion/BEVFus
 ```shell
 python unidistill/exps/multisensor_fusion/nuscenes/BEVFusion/BEVFusion_nuscenes_centerhead_<MODALITY_2>_exp_distill_<MODALITY_1>.py -b 1 --gpus 1 --max_epochs 20
 ```
+
+## Acknowledgements
+Thanks to Feiyang Tan, Nan Song, Jianjian Sun and Haotian Yao from Megvii Technology for their support in basic training infrastructure.
+
+
 ## Citation
 If you find this project useful in your research, please consider citing:
 
