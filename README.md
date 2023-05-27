@@ -5,6 +5,8 @@ This is the official implementation of ***[UniDistill](https://arxiv.org/abs/230
 <img src='figs/unidistil_framework.png'>
 </center>
 
+[![[CVPR 2023 Highlight] UniDistill Presentation Video](https://res.cloudinary.com/marcomontalbano/image/upload/v1685171158/video_to_markdown/images/youtube--_DW32YG7SSE-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=_DW32YG7SSE "[CVPR 2023 Highlight] UniDistill Presentation Video")
+
 ## Getting Started
 ### Installation
 **Step 0.** Install [pytorch](https://pytorch.org/)(v1.9.0).
