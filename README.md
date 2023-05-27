@@ -1,6 +1,6 @@
 # UniDistill: A Universal Cross-Modality Knowledge Distillation Framework for 3D Object Detection in Bird's-Eye View
 
-This is the official implementation of ***UniDistill*** **(CVPR2023 highlight✨, 10% of accepted papers)**. UniDistill offers a universal cross-modality knowledge distillation framework for different teacher and student modality combinations. The core idea is aligning the intermediate BEV features and response features that are produced by all BEV detectors.
+This is the official implementation of ***[UniDistill](https://arxiv.org/abs/2303.15083)*** **(CVPR2023 highlight✨, 10% of accepted papers)**. UniDistill offers a universal cross-modality knowledge distillation framework for different teacher and student modality combinations. The core idea is aligning the intermediate BEV features and response features that are produced by all BEV detectors.
 <center>
 <img src='figs/unidistil_framework.png'>
 </center>
