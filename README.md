@@ -9,10 +9,15 @@ This is the official implementation of ***[UniDistill](https://arxiv.org/abs/230
 
 ## Getting Started
 ### Installation
-**Step 0.** Install [pytorch](https://pytorch.org/)(v1.9.0).
+**Step 0.** Install python3.6 + CUDAv10.2 + CUDNNv8.0.4 + [pytorch](https://pytorch.org/)(v1.9.0).
 
-**Step 1.** Install [MMCV-full==1.4.2](https://download.openmmlab.com/mmcv/dist/cu102/torch1.9.0/index.html), MMDetection2D==2.20.2, [MMDetection3D](https://github.com/open-mmlab/mmdetection3d).
-
+**Step 1.** Install [MMCV-full==1.4.2](https://download.openmmlab.com/mmcv/dist/cu102/torch1.9.0/index.html), MMDetection2D==2.20.2, [MMDetection3D==0.18.0](https://github.com/open-mmlab/mmdetection3d) (Optional: download from [mmdet3d whl](https://drive.google.com/file/d/1y6AjikFQGc400dTim9IIFdvR8RNvnPId/view?)) (Note: need install with CUDA).
+```bash
+pip3 install mmcv-full==1.4.2 -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.9.0/index.html
+pip3 install mmdet==2.20.0
+# download mmdet3d whl from https://drive.google.com/file/d/1y6AjikFQGc400dTim9IIFdvR8RNvnPId/view?usp=share_link
+pip3 install mmdet3d-0.18.0-cp36-cp36m-linux_x86_64.whl
+```
 **Step 2.** Install requirements.
 ```shell
 pip install -r requirements.txt
