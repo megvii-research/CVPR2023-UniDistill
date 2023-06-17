@@ -56,3 +56,4 @@ def run_cli(
         trainer.test(model, model.test_dataloader, args.ckpt_path)
     else:
         trainer.fit(model, model.train_dataloader, model.val_dataloader)
+        trainer.save_checkpoint("./example.ckpt")
