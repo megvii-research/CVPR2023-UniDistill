@@ -42,7 +42,7 @@ The directory will be as follows.
 │   │   ├── v1.0-test
 |   |   ├── v1.0-trainval
 ```
-**Step 2.** Download the [infos](https://drive.google.com/file/d/1UZzSSQiD3mr3Zsgj3MS-Hg5tix3-2ZKP/view?usp=share_link) and put them in `/data/dataset/`
+**Step 2.** Download the [infos](https://drive.google.com/file/d/1RIjSXRcQpwagkdIapE85awo2pXwCUj0e/view?usp=sharing) and put them in `/data/dataset/`
 The directory will be as follows.
 ```
 ├── data
